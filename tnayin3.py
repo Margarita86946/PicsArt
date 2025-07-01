@@ -57,7 +57,7 @@ print(firstDigit + lastDigit)
 # Write a program to calculate the average of 3 float numbers and format the result to 3 decimal places.
 float1, float2, float3 = input("Enter 3 float numbers: ").split(" ")
 
-avgOfFloats = float(float1) + float(float2) + float(float3) / 3
+avgOfFloats = float(float1) + float(float2) + float(float3) / 3   // պիտի փակագծի մեջ առնես , էսպես սխալ կաշխատի
 
 print(avgOfFloats)
 
@@ -112,8 +112,7 @@ print(sum(ls))
 
 # Declare a list and print the value of the maximum of the elements in the list.
 # The list must contain only int values. Do not use the max function.
-max = ls[0]
-
+max = ls[0]   //ստանդարտի անուն է, չենք փոխում, նույնը sum-ի համար
 for num in ls:
     if num > max:
         max = num
@@ -133,7 +132,7 @@ for i in range(11):
 print(ls1)
 
 # erb listern unen tarber lenght petqa stugel vorna metcy avelord qayler chanelu hamar
-lenght = len(ls) if (len(ls) > len(ls1)) else len(ls1)
+lenght = len(ls) if (len(ls) > len(ls1)) else len(ls1)  կարժի երկուարությունը պիտի ընտրվի, դա էլ փոխի
 
 newList = []
 
