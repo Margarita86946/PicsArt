@@ -27,7 +27,7 @@ ls.pop(forPop)
 print(list)
 
 # Write a program to create a list and a tuple with some elements. Print them and display their types.
-list = [1, 30, 'hello', 6.5]
+list = [1, 30, 'hello', 6.5]   // էստեղ սենց բան պետք չի անել, որովհետև իրական տիպն ես ծածկում, հետո էլ չենք կարող սթրինգ ստեղծել, ստանդարտի տրամադրած անուններով փոփոխականներ պետք չի ստեղծել։
 print(list)
 print(type(list))
 
@@ -44,7 +44,7 @@ print(tuple.count(elementToFind))
 myList = [2, 5, 1]
 print(f"Max element: {max(myList)}\nMin element: {min(myList)}")
 
-myTuple = [22, 10, 45]
+myTuple = [22, 10, 45]    #թափլը պիտի () փակագծերով լինի
 print(f"Max element: {max(myTuple)}\nMin element: {min(myTuple)}")
 
 # Write a program to access elements from a nested list and a nested tuple
