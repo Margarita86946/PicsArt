@@ -127,6 +127,23 @@ def multiply_wrapper(multiplier):
 print(multiply_wrapper(3)(2))
 
 # Write a closure that tracks the number of times a specific function is called.
+def greet():
+    print("hello maga")
+
+def counter(f):
+    def inner():
+        inner.counter += 1
+        f()
+    inner.counter = 0
+    return inner
+
+greet = counter(greet)
+
+greet()
+greet()
+greet()
+
+print(greet.counter)
 
 # Create a closure to calculate running totals. Each call to the inner 
 # function should add a number to the total and return the updated total.
