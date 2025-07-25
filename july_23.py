@@ -63,7 +63,6 @@ def is_palindrome(s):
         return False
     return is_palindrome(s[1:-1])
     
-
 print(is_palindrome("racecar"))
 
 # Write a recursive function to calculate the power of a number x raised to n.
