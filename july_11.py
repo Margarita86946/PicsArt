@@ -41,10 +41,6 @@ def factorial(n):
 
 factorial(5)    
 
-number = abs(int(input("Enter your number: ")))
-
-print(factorial(number))
-
 # Write a function greet_many that takes a list of names and prints "Hello, [name]!" for each name.
 def greetMany(names):
     for name in names:
@@ -91,3 +87,4 @@ def countVowels(string):
 
 
 print(countVowels("hello"))
+
