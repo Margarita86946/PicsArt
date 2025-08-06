@@ -20,15 +20,11 @@ def factorial(n):
         return
     
     res = 1
+    while n > 1:
+        res *= n
+        n -= 1
 
-    if n == 0:
-        print(res)
-    else:
-        while n != 1:
-            res *= n
-            n -= 1
-
-        print(res)
+    print(res)
 
 factorial(10)
 
@@ -137,5 +133,6 @@ def number_separator(number):
     
     ls.reverse()
     print(ls)
+
 
 number_separator(1234)
