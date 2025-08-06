@@ -32,10 +32,14 @@ def averageList(numbers):
 print(averageList([10, 20, 30]))
 
 # Write a function factorial that takes a non-negative integer and returns its factorial
-import math
+def factorial(n):
+    res = 1
+    while n > 1:
+        res *= n
+        n -= 1
+    print(res)
 
-def factorial(number):
-    return math.factorial(number)
+factorial(5)    
 
 number = abs(int(input("Enter your number: ")))
 
@@ -84,5 +88,6 @@ def countVowels(string):
             count += 1
 
     return count
+
 
 print(countVowels("hello"))
