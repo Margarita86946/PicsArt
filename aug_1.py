@@ -88,4 +88,5 @@ def cumulative_sum(nums):
         yield total
 
 for partial_sum in cumulative_sum([1, 3, 5, 2]):
+
     print(partial_sum)
